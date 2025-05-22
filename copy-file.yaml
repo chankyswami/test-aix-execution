@@ -2,7 +2,7 @@
   hosts: all
   gather_facts: no
   vars:
-    script_local_path: ./my_script.sh
+    script_local_path: /home/chanky/my_script.sh
     script_remote_path: /tmp/my_script.sh
 
   tasks:
